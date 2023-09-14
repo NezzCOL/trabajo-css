@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/usuarios.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="content-navbar">
+        <nav class="navbar">  
+            <h4 class="navbar-1">Logo Aplicación</h4>
+            <h4 class="navbar-2">Cerrar Sesión - Jhon Hernandez</h4>
+        </nav>
+    </header>
+    <aside class="content-sidebar">
+        <nav class="sidebar" id="aside">
+            <a href="../index.html" class="text">Inicio</a>
+            <a href="usuarios.html" class="text">Usuarios</a>
+            <a href="#" class="text">Articulos</a>
+            <a href="#" class="text">Catalogo</a>
+        </nav>
+    </aside>
+    <div class="main-usuarios">
+        <div class="registro">
+            <h3>Gestionar Usuarios</h3>
+        </div>
+        <div class="form">
+            <h5>Crear Usuario</h5>
+            <div class="td">
+                <select name="" id="">
+                    <option value="TD" disabled selected>Tipo de documento</option>
+                    <option value="CC">Cedula de ciudadania</option>
+                    <option value="CC">Tarjeta de identidad</option>
+                </select>
+            </div>
+            <div class="nom">
+                <input type="text" placeholder="Nombre">
+            </div>
+            <div class="ape">
+                <input type="text" placeholder="Apellido">
+            </div>
+            <div class="tel">
+                <input type="number" placeholder="Telefono">
+            </div>
+            <div class="cor">
+                <input type="number" placeholder="Correo">
+            </div>
+            <div class="btn">
+                <input type="button" value="Agregar">
+            </div>
+        </div>
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Tipo Documento</th>
+                        <th>Documento</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Telefono</th>
+                        <th>Correo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="tabla1">
+                        <td>1</td>
+                        <td>Cedula</td>
+                        <td>12345678</td>
+                        <td>Alvaro</td>
+                        <td>Valencia</td>
+                        <td>3040987654</td>
+                        <td>mail@mail.com</td>
+                    </tr>
+                    
+                    <tr class="tabla2">
+                        <td>2</td>
+                        <td>Cedula</td>
+                        <td>87654321</td>
+                        <td>Pedro</td>
+                        <td>Perez</td>
+                        <td>3001234566</td>
+                        <td>mail@mail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

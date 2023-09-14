@@ -1,0 +1,155 @@
+.main-usuarios {
+    margin-left: 13rem;
+    height: 100vh;
+}
+
+.registro {
+    padding-top: 3.5rem;
+    text-align: center;
+}
+
+h5 {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #fe5000;
+    margin-top: -0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.form {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.3rem solid rgba(216, 216, 216, 0.658);
+    border-right: 0.3rem solid rgba(216, 216, 216, 0.658);
+    background-color: #fff;
+}
+
+.td {
+    margin-left: 23.3rem;
+    margin-top: 1rem;
+    width: 9rem;
+}
+
+.td select {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.4rem;
+    padding-left: 0.2rem;
+    width: 9.3rem;
+    border-color: rgb(194, 194, 194);
+}
+
+.nom {
+    width: 9rem;
+    margin-left: 35.3rem;
+    margin-top: -2rem;
+}
+
+.nom input {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.4rem;
+    padding-left: 0.3rem;
+    width: 9.3rem;
+    border-color: rgb(194, 194, 194);
+}
+
+.ape {
+    margin-left: 23.3rem;
+    margin-top: 1rem;
+    width: 9rem;
+}
+
+.ape input {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.4rem;
+    padding-left: 0.3rem;
+    width: 10rem;
+    border-color: rgb(194, 194, 194);
+}
+
+.tel {
+    width: 9rem;
+    margin-left: 35.3rem;
+    margin-top: -1.8rem;
+}
+
+.tel input {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.4rem;
+    padding-left: 0.3rem;
+    width: 9.3rem;
+    border-color: rgb(194, 194, 194);
+}
+
+.cor {
+    margin-left: 23.3rem;
+    margin-top: 1rem;
+    width: 9rem;
+}
+
+.cor input {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.4rem;
+    padding-left: 0.3rem;
+    width: 10rem;
+    border-color: rgb(194, 194, 194);
+}
+
+.btn {
+    width: 9rem;
+    margin-left: 35.3rem;
+    margin-top: -1.8rem;
+}
+.btn input {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.4rem;
+    padding-left: 0.3rem;
+    width: 9.7rem;
+    border-color: green;
+    background-color: green;
+    color: #fff;
+}
+
+table {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    background-color: #fff;
+    width: 97.4%;
+    box-shadow: 3px 3px 2px 1px rgba(196, 196, 196, 0.651);
+    border-collapse: collapse;
+}
+
+thead tr th {
+    font-size: 0.9rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    align-items: center;
+    color: #fff;
+    background-color: #fe5000;
+    border: 1px solid #000;
+    
+}
+
+.tabla1 td {
+    width: 10rem;
+    border: 1px solid #000;
+    background-color: rgba(196, 196, 196, 0.651);
+    text-align: center;
+}
+
+.tabla2 td{
+    background-color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+}
